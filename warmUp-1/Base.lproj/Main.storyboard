@@ -32,6 +32,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Show Text"/>
+                                <connections>
+                                    <action selector="makeButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="htq-St-EFN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -43,6 +46,10 @@
                             <constraint firstItem="ixQ-gr-moi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QLq-xg-RQd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="toggleButton" destination="ixQ-gr-moi" id="pdM-4g-7ni"/>
+                        <outlet property="warmUpLabel" destination="SZ0-Xb-HU3" id="xg9-06-NYr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
